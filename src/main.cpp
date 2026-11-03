@@ -1,6 +1,18 @@
 #include <iostream>
+#include "jfcli/exceptions.h"
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+#define MODE "DEBUG"
+
+void parse_args(int argc, char* argv[]) {
+    if(argc == 1) {
+        throw_nullargexcep();
+    }
+}
+
+int main(int argc, char* argv[]) {
+    if(MODE == "DEBUG") {
+        std::cout << "[DEBUG MODE] argc: " << argc << std::endl;
+    }
+    parse_args(argc, argv);
     return 0;
 }
