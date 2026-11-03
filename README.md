@@ -2,7 +2,10 @@
 
 <center><b><i>"The reasonable man adapts himself to the world: the unreasonable one persists in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man."</i></b></center> <a href="https://de.wikipedia.org/wiki/George_Bernard_Shaw">-George Bernard Shaw</a>
 
-![License](https://img.shields.io/badge/License-MIT-informational?style=flat-square)
+![Built with](https://img.shields.io/badge/Built%20with-C%2B%2B20-inactive?style=flat-square&logo=cplusplus)
+![macOS · Windows · Linux](https://img.shields.io/badge/macOS%20%C2%B7%20Windows%20%C2%B7%20Linux-support-blue?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-inactive?style=flat-square)
+<br>
 ![Standard](https://img.shields.io/badge/Standard-j26-inactive?style=flat-square)
 ![Version](https://img.shields.io/badge/Version-0.1.0-informational?style=flat-square)
 
