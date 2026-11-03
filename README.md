@@ -12,7 +12,14 @@
 ![Standard](https://img.shields.io/badge/Standard-j26-inactive?style=flat-square)
 ![Version](https://img.shields.io/badge/Version-0.1.0-informational?style=flat-square)
 
-Jellyfish is a lightweight, runtime-based programming language designed for simple distribution and execution. Programs are packaged directly into a standalone runtime executable, eliminating the need to distribute source files and runtime environments separately. Write once, pack once, and distribute as a single executable — no additional installation required.
+**Runtime-based programming language; an open-source language built around a compressor-driven, self-contained execution model.**
+Programs are compressed into optimized payloads and embedded directly into a lightweight runtime executable. No separate runtime installation, no external dependencies. Pack once, distribute anywhere.
+
+| [The Pitch](#the-pitch) - [Getting Started](#getting-started) - [How it works](#how-it-works) - [Releases & Changelogs](#releases--changelogs) - [Demo](#demo) - [Getting Started](#getting-started) |
+:----------------------------------------------------------: |
+| [The Goal](#the-goal) - [Support, FAQ](#support--FAQ) -[Statistics](#statistics) - [Gallery](#gallery) - [Credits](#credits) - [License](#license) |
+
+
 
 ### The Pitch
 Jellyfish is an open-source scipting language designed to produce lightweight, self-contained, and easily distributable executable files. Instead of compiling source code directly into native machine instructions, Jellyfish transforms it into an optimized intermediate payload that is executed by a compact, embedded runtime.
