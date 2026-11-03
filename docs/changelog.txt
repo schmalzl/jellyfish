@@ -1,0 +1,5 @@
+jellyfish
+CHANGELOG
+
+This document holds the user-facing changelog also used in release notes.
+Multiple commits are folded into a single sub-versions of a jellyfish standard.
