@@ -2,6 +2,9 @@
 
 <center><b><i>"The reasonable man adapts himself to the world: the unreasonable one persists in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man."</i></b></center> <a href="https://de.wikipedia.org/wiki/George_Bernard_Shaw">-George Bernard Shaw</a>
 
+![License](https://img.shields.io/badge/License-MIT-informational?style=flat-square)
+![Standard](https://img.shields.io/badge/Standard-j26-inactive?style=flat-square)
+![Version](https://img.shields.io/badge/Version-0.1.0-informational?style=flat-square)
 
 ### The Pitch
 Jellyfish is an open-source scipting language designed to produce lightweight, self-contained, and easily distributable executable files. Instead of compiling source code directly into native machine instructions, Jellyfish transforms it into an optimized intermediate payload that is executed by a compact, embedded runtime.
