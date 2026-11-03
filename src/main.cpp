@@ -1,5 +1,6 @@
 #include <iostream>
 #include <chrono>
+#include <vector>
 #include "jfcli/exceptions.h"
 
 #define MODE "DEBUG"
@@ -9,7 +10,17 @@ void parse_args(int argc, char* argv[]) {
         throw_noinputexcep();
         return;
     }
-    else {
+    
+    std::vector<std::string> args;
+    for (int i = 1; i < argc; i++) {
+        args.push_back(argv[i]);
+    }
+
+    // check first-position arguments for -v / -h
+    if(args[0] == "-h") {
+        
+    }
+    else if(args[0] == "-v") {
 
     }
 }
