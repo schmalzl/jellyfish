@@ -1,11 +1,16 @@
 #include <iostream>
+#include <chrono>
 #include "jfcli/exceptions.h"
 
 #define MODE "DEBUG"
 
 void parse_args(int argc, char* argv[]) {
     if(argc == 1) {
-        throw_nullargexcep();
+        throw_noinputexcep();
+        return;
+    }
+    else {
+
     }
 }
 
