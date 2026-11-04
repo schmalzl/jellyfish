@@ -11,6 +11,7 @@
 <br>
 ![Standard](https://img.shields.io/badge/Standard-j26-inactive?style=flat-square)
 ![Version](https://img.shields.io/badge/Version-0.1.0-informational?style=flat-square)
+![built without](https://img.shields.io/badge/built%20without-AI-lightgrey?style=flat-square)
 
 **Runtime-based programming language; an open-source language built around a compressor-driven, self-contained execution model.**
 Programs are compressed into optimized payloads and embedded directly into a lightweight runtime executable. No separate runtime installation, no external dependencies. Pack once, distribute anywhere.
@@ -44,6 +45,7 @@ Jellyfish is designed to simplify software distribution, minimize executable siz
 > **jellyfish is still at a very early development stage.**
 > Code syntax might change in the future.
 
+Down below is a very simple demo program you can copy&paste into your text editor, safe as a file.`.j` and compile using jellyfish in your terminal. Follow the steps [here](#getting-started) to download your first version of jellyfishc.
 ```
 PLUG std
 # This is a comment. Here you can e.g. specify compiler arguments.
