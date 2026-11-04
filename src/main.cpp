@@ -31,11 +31,11 @@ void parse_args(int argc, char* argv[]) {
     }
 
     // check first-position arguments for -v / -h
-    if(args[0] == "-h") {
+    if(args[0] == "-h" || args[0] == "-H" || args[0] == "--help") {
         show_help();
         show_time = false;
     }
-    else if(args[0] == "-v") {
+    else if(args[0] == "-v" || args[0] == "-V" || args[0] == "--version") {
         show_version();
         show_time = false;
     }
