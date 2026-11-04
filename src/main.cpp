@@ -2,8 +2,9 @@
 #include <chrono>
 #include <vector>
 #include "jfcli/exceptions.h"
-
-#define MODE "DEBUG"
+#include "jfcli/help.h"
+#include "jfcli/version.h"
+#include "definitions.h"
 
 void parse_args(int argc, char* argv[]) {
     if(argc == 1) {
@@ -18,7 +19,7 @@ void parse_args(int argc, char* argv[]) {
 
     // check first-position arguments for -v / -h
     if(args[0] == "-h") {
-        
+
     }
     else if(args[0] == "-v") {
 
@@ -27,7 +28,7 @@ void parse_args(int argc, char* argv[]) {
 
 auto start = std::chrono::high_resolution_clock::now();
 int main(int argc, char* argv[]) {
-    if(MODE == "DEBUG") {
+    if(MODE == "DEV") {
         std::cout << "[DEBUG MODE] argc: " << argc << std::endl;
     }
     parse_args(argc, argv);
