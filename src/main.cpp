@@ -59,6 +59,7 @@ void parse_args(int argc, char* argv[]) {
         }
         pushto_parser(in_path, out_path);
     }
+    return;
 }
 
 auto start = std::chrono::high_resolution_clock::now();
