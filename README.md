@@ -40,18 +40,43 @@ Jellyfish is designed to simplify software distribution, minimize executable siz
 *coming soon*
 
 ### Demo
-*coming soon*
+> [!NOTE]
+> **jellyfish is still at a very early development stage.**
+> Code syntax might change in the future.
+
+```
+PLUG std
+# This is a comment. Here you can e.g. specify compiler arguments.
+MODE std=jf26
+
+.sector main
+    alloc int x = 1
+    # Tab spacing doesnt matter!
+std.println "Hello, World!"
+std.print "The number: " + x + std.newline
+std.exit 0
+```
 
 ### How it works
 *coming soon*
 
 ### The Goal
+**NOTE:** Right now, i am still a student in a german high school with my A-level exams coming up soon. Since I want to put my focus on my grades, this project might not develop in such fast speeds although I will continue working on it in my free time.
+
+jellyfish will never be as good as bash/python or yet anything already out there. I want to create a programming platform that allows users to write simple scripts to manage tasks on their computer and learn program the way I did it (Read more about that here: [Credits](#credits)).
+
+The .bat/bash like syntax when it comes to functions (jmp) is what really makes this language different from python.
+
+In the future, I want people to be able to create their own functions in C++ which they can implement/build into the compiler for use in jellyfish.
+
 Also see [todo.txt](./docs/todo.txt) for extra details on WIP features coming in further releases.
+
 
 ### Releases & Changelogs
 See [Releases](https://github.com/schmalzl/jellyfish/releases) page (decorated) or [changelogs.txt](./docs/CHANGELOGS.txt) for changelogs. Reading the changelogs is a good way to keep up to date with the things the current compiler has to offer, and maybe will give you ideas of some features that you've been ignoring until now!
 
 ### Documentation
+I will try my best at documenting how the language and compiler works in the docs file. Reading the Changelogs is also a good way to keep yourself updated with new functions since I might not update the documentation in time.
 The official documentation and syntax guide are available in [docs.md](./docs/docs.md)
 
 ### Statistics
