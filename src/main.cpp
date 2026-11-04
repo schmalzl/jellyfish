@@ -63,7 +63,7 @@ void parse_args(int argc, char* argv[]) {
 
 auto start = std::chrono::high_resolution_clock::now();
 int main(int argc, char* argv[]) {
-    if(MODE == "DEV") {
+    if(std::string(MODE) == "DEV") {
         std::cout << "[DEBUG MODE] argc: " << argc << std::endl;
     }
     
