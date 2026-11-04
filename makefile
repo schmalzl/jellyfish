@@ -31,7 +31,7 @@ BIN_DIR = bin
 RELEASE_DIR = release
 
 # executables
-JF = $(BIN_DIR)/jellyfish
+JF = $(BIN_DIR)/jellyfishc
 RT = $(BIN_DIR)/rt
 
 # Source files (recursive)
