@@ -44,8 +44,13 @@ void parse_args(int argc, char* argv[]) {
         std::string in_path = args[0];
         std::string out_path;
         if(args[1] == "-o") {
-            if(args.size() > 2) {
+            if(args.size() > 1) {
+                std::cout << "1" << std::endl;
                 out_path = args[2];
+            }
+            if(out_path == "" || out_path == " ") {
+                throw_nooutputpath();
+                return;
             }
         }
         else {
@@ -66,6 +71,9 @@ auto start = std::chrono::high_resolution_clock::now();
 int main(int argc, char* argv[]) {
     if(std::string(MODE) == "DEV") {
         std::cout << "[DEBUG MODE] argc: " << argc << std::endl;
+        for(int i = 0; i < argc; i++) {
+            std::cout << argv[i] << std::endl;
+        }
     }
     
     parse_args(argc, argv);
