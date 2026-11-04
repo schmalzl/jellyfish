@@ -75,7 +75,7 @@ Also see [todo.txt](./docs/todo.txt) for extra details on WIP features coming in
 
 
 ### Releases & Changelogs
-See [Releases](https://github.com/schmalzl/jellyfish/releases) page (decorated) or [changelogs.txt](./docs/CHANGELOGS.txt) for changelogs. Reading the changelogs is a good way to keep up to date with the things the current compiler has to offer, and maybe will give you ideas of some features that you've been ignoring until now!
+See [Releases](https://github.com/schmalzl/jellyfish/releases) page (decorated) or [changelogs.txt](./docs/changelogs.txt) for changelogs. Reading the changelogs is a good way to keep up to date with the things the current compiler has to offer, and maybe will give you ideas of some features that you've been ignoring until now!
 
 ### Documentation
 I will try my best at documenting how the language and compiler works in the docs file. Reading the Changelogs is also a good way to keep yourself updated with new functions since I might not update the documentation in time.
