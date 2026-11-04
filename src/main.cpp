@@ -6,6 +6,8 @@
 #include "jfcli/version.h"
 #include "definitions.h"
 
+bool show_time = true;
+
 void parse_args(int argc, char* argv[]) {
     if(argc == 1) {
         throw_noinputexcep();
@@ -28,14 +30,13 @@ void parse_args(int argc, char* argv[]) {
     }
 }
 
-bool show_time = true;
 auto start = std::chrono::high_resolution_clock::now();
 int main(int argc, char* argv[]) {
     if(MODE == "DEV") {
         std::cout << "[DEBUG MODE] argc: " << argc << std::endl;
     }
+    
     parse_args(argc, argv);
-
     
     // calculate elapsed time since program start
     auto end = std::chrono::high_resolution_clock::now();
