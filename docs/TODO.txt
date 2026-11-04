@@ -6,4 +6,4 @@ Issue numbers (#) refer to GitHub issues (if) listed in the issues tab of the of
 THIS LIST MIGHT NOT BE UP TO DATE. MOST OF THESE ENTRIES ARE PERSONAL IMPROVEMENTS THAT (MIGHT) HAVE NOT BEEN
 LISTED AS AN ISSUE ON GITHUB.
 
-- 
+- parse: break down the content of given buffer into an intermediate state for further analysis
