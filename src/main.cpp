@@ -19,13 +19,16 @@ void parse_args(int argc, char* argv[]) {
 
     // check first-position arguments for -v / -h
     if(args[0] == "-h") {
-
+        show_help();
+        show_time = false;
     }
     else if(args[0] == "-v") {
-
+        show_version();
+        show_time = false;
     }
 }
 
+bool show_time = true;
 auto start = std::chrono::high_resolution_clock::now();
 int main(int argc, char* argv[]) {
     if(MODE == "DEV") {
@@ -37,6 +40,8 @@ int main(int argc, char* argv[]) {
     // calculate elapsed time since program start
     auto end = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
-    std::cout << "Elapsed time: " << duration.count() << " ms" << std::endl;
+    if(show_time) {
+        std::cout << "Elapsed time: " << duration.count() << " ms" << std::endl;
+    }
     return 0;
 }
