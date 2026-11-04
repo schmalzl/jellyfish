@@ -33,9 +33,9 @@ std::string get_target() {
 }
 
 void show_version() {
-    std::cout << " " << std::endl;
     std::cout << "jellyfish version " << VERSION << " (" << STD << ")" << std::endl;
     std::cout << "Target: " << get_target() << std::endl;
     std::cout << "InstalledDir: ";
     std::cout << std::filesystem::current_path() << '\n';
+    std::cout << " " << std::endl;
 }
